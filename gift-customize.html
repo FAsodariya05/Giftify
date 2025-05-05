@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customize Your Gift</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <h1>🎁 Customize Your Gift</h1>
+    <nav>
+      <a href="index1.html">Home</a>
+      <a href="gift-customize.html">Customize</a>
+      <a href="ai-suggestion.html">AI Suggestions</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Enter Your Customization Details</h2>
+    <form action="order.php" method="post" enctype="multipart/form-data">
+      <label>Gift Type:</label>
+      <select name="gift_type" required>
+        <option>Birthday</option>
+        <option>Anniversary</option>
+        <option>Graduation</option>
+        <option>Corporate</option>
+      </select>
+
+      <label>Recipient Name:</label>
+      <input type="text" name="recipient_name" required>
+
+      <label>Custom Message:</label>
+      <textarea name="message" rows="4" required></textarea>
+
+      <label>Upload Image (optional):</label>
+      <input type="file" name="image">
+
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AI Gifting | Personalize with Love</p>
+  </footer>
+</body>
+</html>
