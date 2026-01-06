@@ -31,6 +31,7 @@ Future upgrades may include:
 
 
 ## 📁 Folder Structure
+```
 gift-site/
 │
 ├── index.html # Homepage
@@ -42,6 +43,7 @@ gift-site/
 ├── admin.php # Displays submitted orders
 ├── orders.txt # Text file to store orders
 └── uploads/ # Stores uploaded gift images
+```
 
 This project demonstrates how AI can enhance everyday web experiences in creative ways.  
 
